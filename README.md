@@ -63,7 +63,11 @@ To get it running inside Chrome you should start it with these [command line](ht
     --app=http://path/to/ripple-ui/pkg/web
     --disable-web-security
     --user-data-dir=/path/to/dummy/profile
-
+## Running on node-webkit
+node-webkit is an environment which intergated with nodejs and webkit(if blink would be better),the developer can write front-end javascript application to invoke nodejs's interface thus to operate native resources.
+* Download node-webkit
+* package the files to yourname.nw
+* build the yourname.nw to and executable programme which can be run on windows/linux or mac oxs
 ## Code Guidelines
 
 * 4 spaces per editor tab.
